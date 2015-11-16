@@ -20,7 +20,7 @@ d. 然后按w写入分区信息
 
 sudo mkfs.ext3 /dev/sdb1  （之前我用mkfs -t ext3 /dev/sdb1，当启动时总是失败）
 
-3. 
+3.
 
 创建需要mount的目录
 
@@ -28,7 +28,7 @@ mkdir -p /opt
 
 sudo mount /dev/sdb1 /opt -o rw
 
-4. 
+4.
 
 如果需要每次启动加载，修改/etc/fstab文件
 
