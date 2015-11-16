@@ -39,4 +39,5 @@ sudo mount /dev/sdb1 /opt -o rw
 --------------------------------------------------------
 
 sudo -S mount -t vboxsf androidsrc ~/mnt/share
+
 sudo mount /dev/sdb1 ~/mnt/androidsrc -o rw
